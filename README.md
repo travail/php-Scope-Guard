@@ -28,7 +28,7 @@ his module provides a convenient way to perform cleanup or other forms of resour
 
 ### __construct
 
-`__constract(callable $handler)`
+`\Scope\Guard __constract(callable $handler)`
 
 The `__construct` method creates a new `\Scope\Guard` object which calls the supplied handler when its `__destruct` method is called, typically at the end of the scope.
 
