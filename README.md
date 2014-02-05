@@ -8,7 +8,7 @@
 
 ```php
 $handler = function() {...};
-$guard    = new \Scope\Guard($handler);
+$guard   = new \Scope\Guard($handler);
 
 // Fire the handler immediately
 $guard = null;
